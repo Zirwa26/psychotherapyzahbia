@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+@font-face{
+    font-family:"Poppins";
+    src :url(fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family:"Allura";
+    src :url(fonts/Allura/Allura-Regular.ttf);
+}
+@font-face{
+    font-family:"Adamina";
+    src:url(fonts/Adamina/Adamina-Regular.ttf);
+}
+@font-face{
+    font-family:"Roboto Mono";
+    src:url(fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family:"Arima";
+    src:url(fonts/Arima/Arima-VariableFont_wght.ttf);
+}
+.imagecontainer{
+    position: absolute;
+    
+    filter: brightness(0.5);
+}
+.overlay{
+    
+            position: absolute;
+            top: 54%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #FFF5E4; /* Text color */
+            font-size: 80px; /* Adjust the font size as needed */
+            
+            text-align: center;
+           opacity: 1;
+           font-family: "Poppins";
+    
+}
+.font{
+    font-family:"Allura";font-size: 100px;letter-spacing: 2px;
+}        
+.header{
+    position:absolute;
+    top: 4%;
+    left: 54%;
+    color: white;
+    font-size: 16px;
+     font-family: "Poppins";
+  
+}
+
+.headerone{
+    border: 5px double white;
+    width: 20px;
+    height: 20px;
+    padding: 1em;
+}
+.headerone:hover{
+    background-color: white;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+}
+a:visited{
+    color: skyblue;
+}
+.alignimg{
+     position:absolute;
+    
+    left: 1%;
+    color: #FFF5E4;
+}
+.info{
+    font-family: "Roboto Mono";
+    position: absolute;
+    top: 3%;
+    color: white;
+    left: 11%;
+    font-weight: 800;
+    font-size: 20px;
+}
+.text{
+    border: thin solid #E6D2AA;
+    width: 32%;
+    height: 50%;
+    color: black;
+    font-family: "Adamina";
+    position: absolute;
+    top: 83.2%;
+    background-color: #E6D2AA;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing: 2px;
+    padding: 1em;
+    
+}
+.text > p{
+    border: 2px solid black;
+    width: 10%;
+    position: absolute;
+     top: 30.2%;
+    left: 43%;
+    
+}
+.new{
+    position: relative; 
+    top: 20%;
+    font-size: 20px;
+    padding: 1em;
+    word-spacing: 2px;
+}
+.block > a{
+    border: medium solid #576F72;
+    width: 150px;
+    height: 37px;
+    position: absolute;
+    top:130%;
+    left: 12%;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #576F72;
+}
+.text:hover{
+   transform: scale(1.1); transition: transform 0.1s ease;
+}
+.block a :hover{
+    background-color: #6D9886;
+}
+.texttwo{
+    border: thin solid #CC9C75;
+    width: 32%;
+    height: 50%;
+    color: white;
+    font-family: "Adamina";
+    position: absolute;
+    top: 83.2%;
+    left: 36%;
+    background-color: #CC9C75;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing: 2px;
+    padding: 1em;
+    
+}
+.texttwo > p{
+    border: 2px solid black;
+    width: 10%;
+    position: absolute;
+     top: 26.2%;
+    left: 45%;
+    
+}
+.newtwo{
+    position: relative; 
+    top: 7%;
+    font-size: 20px;
+    padding: 1em;
+    word-spacing: 2px;}
+.blocktwo > a{
+    border: medium solid #576F72;
+    width: 150px;
+    height: 32px;
+    position: absolute;
+    top:132%;
+    left: 49%;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #576F72;
+}
+.texttwo:hover{
+   transform: scale(1.1); transition: transform 0.1s ease;
+}
+.blocktwo > a :hover{
+    background-color: #6D9886;
+}
+.textthree{
+    border: thin solid #F9D371;
+    width: 22.8%;
+    height: 50%;
+    color: black;
+    font-family: "Adamina";
+    position: absolute;
+    top: 83.2%;
+    left: 72%;
+    background-color: #F9D371;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing: 2px;
+    padding: 1em;
+    
+}
+.textthree > p{
+    border: 2px solid black;
+    width: 10%;
+    position: absolute;
+     top: 23.8%;
+    left: 45%;
+    
+}
+.newthree{
+    position: relative; 
+    top: 5%;
+    font-size: 20px;
+    padding: 1em;
+    word-spacing: 2px;}
+.blockthree > a{
+    border: medium solid #576F72;
+    width: 150px;
+    height: 26px;
+    position: absolute;
+    top:134%;
+    left: 80%;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #576F72;
+}
+
+.textthree:hover{
+   transform: scale(1.1); transition: transform 0.1s ease;
+}
+.blockthree>a:hover{
+    background-color: #576F72;
+}
+footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #F3C892;
+           position: absolute;
+           top: 210%;
+           width: 97%;
+           height: 27%;
+        }
+        
+      footer>p{
+          font-size: 26px;
+      }
+        .social-icon {
+            font-size: 50px;
+            margin: 0 10px;
+        }
+.i>img{
+    position: absolute;
+    top: 152%;
+    left: 70%;
+}     
+.i>p{
+    border: 2px solid #676FA3;
+    width: 10%;
+    position: absolute;
+     top: 195.8%;
+    left: 4%;
+}
+.i>div{
+    position: absolute;
+    top: 150%;
+    left: 4%;
+    border: thin solid white;
+    width: 61%;
+    height: 46%;
+    font-size: 30px;
+    font-family: "Arima";
+}
+.i>div::before{
+     content: "“";
+    font-size: 57px;
+    display: block;
+}
+.i>div::after{
+    content: "”";
+      font-size: 60px;
+    display: block;
+    text-align: right;
+}
+.i .ii{
+    font-family: "Allura";
+    padding: 0.4em;
+    font-size: 50px;
+}
+.i .iii{
+    font-style: italic;
+    padding: 0.2em;
+}
+.i div:hover{
+    transform: scale(1.1); transition: transform 0.1s ease;
+}
+footer .jojo{
+   
+    position: absolute;
+    top: 15%;
+    
+}
+.jojo a {
+    color: black;
+    text-decoration-line: underline;
+    padding: 1.5em;
+}
